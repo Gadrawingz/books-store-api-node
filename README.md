@@ -9,7 +9,7 @@
 > Initialize a new node.js project with the command below:
 
 ``` bash
-mkdir nodejs-mysql-crud && cd nodejs-mysql-crud
+mkdir book-store-api && cd book-store-api
 npm init --yes
 npm install cors dotenv express nanoid mysql2
 npm install nodemon -D
@@ -68,7 +68,18 @@ git remote add origin https://github.com/Gadrawingz/books-store-api-node.git
 
 ## Screenshots
 
+### Create a Book (POST)
+
 ![Create a Book](/images/create-book.png "POST")
+
+### Get All books (GET)
+
 ![Get all Books](/images/get-all-books.png "GET")
+
+### Get a single Book (GET)
+
 ![Get single Book](/images/get-single-book.png "GET")
+
+### Update a single book (PATCH)
+
 ![Update Book](/images/update-book.png "PATCH")
